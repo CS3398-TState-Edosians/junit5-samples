@@ -6,6 +6,7 @@
  * accompanies this distribution and is available at
  *
  * http://www.eclipse.org/legal/epl-v20.html
+ * more comments
  */
 
 package com.example.project;
