@@ -38,7 +38,7 @@ class CalculatorTests {
 		assertEquals(expectedResult, calculator.add(first, second),
 				() -> first + " + " + second + " should equal " + expectedResult);
 	}
-	
+
 	@Test
 	@DisplayName("1 - 1 = 0")
 	void subtractsTwoNumbers() {
@@ -55,7 +55,7 @@ class CalculatorTests {
 	})
 	void subtract(int first, int second, int expectedResult) {
 		Calculator calculator = new Calculator();
-		assertEquals(expectedResult, calculator.add(first, second),
+		assertEquals(expectedResult, calculator.subtract(first, second),
 				() -> first + " - " + second + " should equal " + expectedResult);
 	}
 	
