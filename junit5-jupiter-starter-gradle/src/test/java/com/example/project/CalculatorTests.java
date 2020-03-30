@@ -53,7 +53,7 @@ class CalculatorTests {
 			"49,  32, 17",
 			"101,  100, 1"
 	})
-	void add(int first, int second, int expectedResult) {
+	void subtract(int first, int second, int expectedResult) {
 		Calculator calculator = new Calculator();
 		assertEquals(expectedResult, calculator.subtract(first, second),
 				() -> first + " - " + second + " should equal " + expectedResult);
