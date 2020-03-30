@@ -15,4 +15,4 @@ jobs:
         - gradle test --console plain
         - gradle clean test --console plain
         - gradle build --console plain
-
+ 
